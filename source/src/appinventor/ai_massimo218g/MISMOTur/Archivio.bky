@@ -1,0 +1,1938 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="Z?**_/M}u%~oqg]mZJOT" x="1206" y="-799">
+    <mutation component_type="Button" is_generic="false" instance_name="btn_Clear" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btn_Clear</field>
+    <statement name="DO">
+      <block type="component_method" id="z5^/K1yVNl48nqew~HFt">
+        <mutation component_type="TinyDB" method_name="ClearTag" is_generic="false" instance_name="TinyDB1"></mutation>
+        <field name="COMPONENT_SELECTOR">TinyDB1</field>
+        <value name="ARG0">
+          <block type="text" id="wjrr`CW?X;t*~i;R[F,,">
+            <field name="TEXT">BARDO</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_method" id="tM0t)y}}gj5AwEPh|6g#">
+            <mutation component_type="TinyDB" method_name="ClearTag" is_generic="false" instance_name="TinyDB1"></mutation>
+            <field name="COMPONENT_SELECTOR">TinyDB1</field>
+            <value name="ARG0">
+              <block type="text" id="^dBohE:MwF[Bv|%eARg)">
+                <field name="TEXT">MATAJUR</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="C8`iFP7u1RHS/FfBFm^l">
+                <mutation component_type="TinyDB" method_name="ClearTag" is_generic="false" instance_name="TinyDB1"></mutation>
+                <field name="COMPONENT_SELECTOR">TinyDB1</field>
+                <value name="ARG0">
+                  <block type="text" id="J9(q1#jwt/jqqzII)7_3">
+                    <field name="TEXT">TIPANA</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_method" id="zT84AS%Oj^Y1~BS+Yn=p">
+                    <mutation component_type="TinyDB" method_name="ClearTag" is_generic="false" instance_name="TinyDB1"></mutation>
+                    <field name="COMPONENT_SELECTOR">TinyDB1</field>
+                    <value name="ARG0">
+                      <block type="text" id="@CmS[Dgi[cuaKY~j`%{z">
+                        <field name="TEXT">SMO</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_method" id="*z|Tk1b/[2oe2$SyQ|J`">
+                        <mutation component_type="TinyDB" method_name="ClearTag" is_generic="false" instance_name="TinyDB1"></mutation>
+                        <field name="COMPONENT_SELECTOR">TinyDB1</field>
+                        <value name="ARG0">
+                          <block type="text" id="J{Al^vF:VnYBE01mn@?b">
+                            <field name="TEXT">REZIJA</field>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="EEe7dSjp8Ys#dHRTVMwm" x="-665" y="-655">
+    <mutation component_type="Image" is_generic="false" instance_name="img_SMO" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">img_SMO</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="]Qt1ajxU_ZB1+5Rh4K`^">
+        <value name="SCREEN">
+          <block type="text" id="Fus/wCa=PIGmH9Rwp6Jh">
+            <field name="TEXT">SMO</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="45" x="254" y="-641">
+    <mutation component_type="Button" is_generic="false" instance_name="btn_Close" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btn_Close</field>
+    <statement name="DO">
+      <block type="controls_closeScreen" id="51"></block>
+    </statement>
+  </block>
+  <block type="component_event" id="3[@w-uJXzzX5Ya**=EN2" x="-658" y="-577">
+    <mutation component_type="Image" is_generic="false" instance_name="img_Bardo" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">img_Bardo</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="eTU|)]F?Hfw/(StJQxm5">
+        <value name="SCREEN">
+          <block type="text" id="tu9GS,q(y(maJK/M}V=I">
+            <field name="TEXT">BARDO</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="vUL-}S,~kwcny*2hScW$" x="495" y="-633">
+    <mutation component_type="Button" is_generic="false" instance_name="btn_Scan" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btn_Scan</field>
+    <statement name="DO">
+      <block type="component_method" id="qN;nF(C-)7c^btsBopo!">
+        <mutation component_type="BarcodeScanner" method_name="DoScan" is_generic="false" instance_name="BarcodeScanner1"></mutation>
+        <field name="COMPONENT_SELECTOR">BarcodeScanner1</field>
+      </block>
+    </statement>
+  </block>
+  <block type="global_declaration" id="3zx)R!TRzd)[h$L_t;Ul" x="-190" y="-548">
+    <field name="NAME">scan</field>
+    <value name="VALUE">
+      <block type="text" id="@KvM6+o5^0lwcVjcLyGK">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+  </block>
+  <block type="component_event" id="hJzn$|v(sj:9:Kk|v@fU" x="-658" y="-503">
+    <mutation component_type="Image" is_generic="false" instance_name="img_Matajur" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">img_Matajur</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="O9P5vCxqVATmJ$A]Iq=N">
+        <value name="SCREEN">
+          <block type="text" id="P`9(%y6Q!Td=WLYH]|Y(">
+            <field name="TEXT">MATAJUR</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="XF2@o`S1C5nJDVc:NAnP" x="-193" y="-474">
+    <mutation component_type="Form" is_generic="false" instance_name="Archivio" event_name="Initialize"></mutation>
+    <field name="COMPONENT_SELECTOR">Archivio</field>
+    <statement name="DO">
+      <block type="procedures_callnoreturn" id="my*:f$CjZ9Wf#.6x{VSw" inline="false">
+        <mutation name="SMO"></mutation>
+        <field name="PROCNAME">SMO</field>
+        <next>
+          <block type="procedures_callnoreturn" id="dGQZ{BqsGB~fZU#kVw#x" inline="false">
+            <mutation name="BARDO"></mutation>
+            <field name="PROCNAME">BARDO</field>
+            <next>
+              <block type="procedures_callnoreturn" id="4O7!--A.a$pL-6E3:R^u" inline="false">
+                <mutation name="REZIJA"></mutation>
+                <field name="PROCNAME">REZIJA</field>
+                <next>
+                  <block type="procedures_callnoreturn" id="bXL.o9+0[4Nhg3^|RhSm" inline="false">
+                    <mutation name="MATAJUR"></mutation>
+                    <field name="PROCNAME">MATAJUR</field>
+                    <next>
+                      <block type="procedures_callnoreturn" id="fiAS(x3e?gQ`zG,1PtY^" inline="false">
+                        <mutation name="TIPANA"></mutation>
+                        <field name="PROCNAME">TIPANA</field>
+                        <next>
+                          <block type="procedures_callnoreturn" id="+P6jENrK`lq(Hw*kY(5r" inline="false">
+                            <mutation name="Komplet"></mutation>
+                            <field name="PROCNAME">Komplet</field>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="5,4]!l9pPa@r6CKr;yx=" x="-664" y="-424">
+    <mutation component_type="Image" is_generic="false" instance_name="img_Rezija" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">img_Rezija</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="F6TKWt45P6m3([Rki=uW">
+        <value name="SCREEN">
+          <block type="text" id="?yQnt|wpnj(Hj9Mrni#*">
+            <field name="TEXT">REZIJA</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="CZy]rOu:WNSAWJ)?`tXi" x="152" y="-438">
+    <field name="NAME">BARDO</field>
+    <statement name="STACK">
+      <block type="component_set_get" id="[0STF5%X`_JVv1KNWJff" inline="false">
+        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="lbl_Bardo"></mutation>
+        <field name="COMPONENT_SELECTOR">lbl_Bardo</field>
+        <field name="PROP">Text</field>
+        <value name="VALUE">
+          <block type="component_method" id="7(*v~tJIq@tj@DI_;m)c" inline="false">
+            <mutation component_type="TinyDB" method_name="GetValue" is_generic="false" instance_name="TinyDB1"></mutation>
+            <field name="COMPONENT_SELECTOR">TinyDB1</field>
+            <value name="ARG0">
+              <block type="text" id="P1LbAS3TXSHy)#FR|l8*">
+                <field name="TEXT">BARDO</field>
+              </block>
+            </value>
+            <value name="ARG1">
+              <block type="text" id="iW/=k*YIWZzxzV@Ga-o3">
+                <field name="TEXT">NOT VISITED!</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="controls_if" id="4%Y.2P?j1s_=-4%~}@t;" inline="false">
+            <mutation else="1"></mutation>
+            <value name="IF0">
+              <block type="logic_compare" id="020j0@FliKgnFU=E?/RZ">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="component_set_get" id="TgXe7c/8uf^21d2no|w(">
+                    <mutation component_type="Label" set_or_get="get" property_name="Text" is_generic="false" instance_name="lbl_Bardo"></mutation>
+                    <field name="COMPONENT_SELECTOR">lbl_Bardo</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="text" id="oH:ANMeu|ETkP}8tjHTW">
+                    <field name="TEXT">BARDO</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="component_set_get" id="R(Jb3^mm+j?sUX#r(v%Z">
+                <mutation component_type="CheckBox" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="chb_Bardo"></mutation>
+                <field name="COMPONENT_SELECTOR">chb_Bardo</field>
+                <field name="PROP">Enabled</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="WeXJgj*#92~i0]dN6HDe">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="),bF8oK#hkBThelfY9=m">
+                    <mutation component_type="CheckBox" set_or_get="set" property_name="Checked" is_generic="false" instance_name="chb_Bardo"></mutation>
+                    <field name="COMPONENT_SELECTOR">chb_Bardo</field>
+                    <field name="PROP">Checked</field>
+                    <value name="VALUE">
+                      <block type="logic_boolean" id="/LP81Wm.=VDg@lCiTv?G">
+                        <field name="BOOL">TRUE</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_set_get" id="1==vnr4fojMxQ5InO8WV">
+                        <mutation component_type="Image" set_or_get="set" property_name="Visible" is_generic="false" instance_name="img_Bardo"></mutation>
+                        <field name="COMPONENT_SELECTOR">img_Bardo</field>
+                        <field name="PROP">Visible</field>
+                        <value name="VALUE">
+                          <block type="logic_boolean" id="=(,r=lkE.Z%oDwX:k}2#">
+                            <field name="BOOL">TRUE</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_set_get" id="@4~|/iec?wQZrCWh%;k@" inline="false">
+                            <mutation component_type="Label" set_or_get="set" property_name="TextColor" is_generic="false" instance_name="lbl_Bardo"></mutation>
+                            <field name="COMPONENT_SELECTOR">lbl_Bardo</field>
+                            <field name="PROP">TextColor</field>
+                            <value name="VALUE">
+                              <block type="color_green" id="+`6fjq_|:K~15VOG5iI=">
+                                <field name="COLOR">#009900</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="component_set_get" id="hKE+3_(dS;({AN*.CUW?" inline="false">
+                                <mutation component_type="Label" set_or_get="set" property_name="FontSize" is_generic="false" instance_name="lbl_Bardo"></mutation>
+                                <field name="COMPONENT_SELECTOR">lbl_Bardo</field>
+                                <field name="PROP">FontSize</field>
+                                <value name="VALUE">
+                                  <block type="math_number" id="SR^LCgQCR4#)Pf6-qE=(">
+                                    <field name="NUM">20</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_set_get" id="iqBWzruQ3E3KgD,e8D4y" inline="false">
+                                    <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="lbl_Bardo"></mutation>
+                                    <field name="COMPONENT_SELECTOR">lbl_Bardo</field>
+                                    <field name="PROP">Text</field>
+                                    <value name="VALUE">
+                                      <block type="text" id="m4GTRKS$;(o2J(/S2zWr">
+                                        <field name="TEXT">BARDO VISITED BRAVO!!!</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <statement name="ELSE">
+              <block type="component_set_get" id="=V*P25_!94v0S@a2q;~;">
+                <mutation component_type="CheckBox" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="chb_Bardo"></mutation>
+                <field name="COMPONENT_SELECTOR">chb_Bardo</field>
+                <field name="PROP">Enabled</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="Rl5G9TM*1`FJgq%L(Sin">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="dfCqm(Y)!N+~KYWCQ{qZ">
+                    <mutation component_type="Image" set_or_get="set" property_name="Visible" is_generic="false" instance_name="img_Bardo"></mutation>
+                    <field name="COMPONENT_SELECTOR">img_Bardo</field>
+                    <field name="PROP">Visible</field>
+                    <value name="VALUE">
+                      <block type="logic_boolean" id="pR6D@xrYL6_KxCvPYnUj">
+                        <field name="BOOL">TRUE</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_set_get" id="k~go2]73|P$Z4hVBw7(+" inline="false">
+                        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="lbl_Bardo"></mutation>
+                        <field name="COMPONENT_SELECTOR">lbl_Bardo</field>
+                        <field name="PROP">Text</field>
+                        <value name="VALUE">
+                          <block type="text" id="k,yOVmu{}{K46L.ix[m8">
+                            <field name="TEXT">BARDO NOT VISITED!</field>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="w8:g!6aDm5um*k*3qJu-" x="834" y="-450">
+    <field name="NAME">SMO</field>
+    <statement name="STACK">
+      <block type="component_set_get" id="YrU5Vf4^y*%=*@21A!lU" inline="false">
+        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="lbl_SMO"></mutation>
+        <field name="COMPONENT_SELECTOR">lbl_SMO</field>
+        <field name="PROP">Text</field>
+        <value name="VALUE">
+          <block type="component_method" id="u@iUV/=4GhNYk$4$$=Z)" inline="false">
+            <mutation component_type="TinyDB" method_name="GetValue" is_generic="false" instance_name="TinyDB1"></mutation>
+            <field name="COMPONENT_SELECTOR">TinyDB1</field>
+            <value name="ARG0">
+              <block type="text" id="sU^(n)ds^*]v=P5TE|.J">
+                <field name="TEXT">SMO</field>
+              </block>
+            </value>
+            <value name="ARG1">
+              <block type="text" id="Ex9*~`GQ%b5E$9J!1p[)">
+                <field name="TEXT">NOT VISITED!</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="controls_if" id="=C0bOGTRi3*:~pzrfzp%" inline="false">
+            <mutation else="1"></mutation>
+            <value name="IF0">
+              <block type="logic_compare" id="=u-(odg6GBdo,{-M7DFw">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="component_set_get" id="eM]]UsQA_*,2Q)UN=w`j">
+                    <mutation component_type="Label" set_or_get="get" property_name="Text" is_generic="false" instance_name="lbl_SMO"></mutation>
+                    <field name="COMPONENT_SELECTOR">lbl_SMO</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="text" id="BAt7:Z?3Rj4jxTnJ.!zL">
+                    <field name="TEXT">SMO</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="component_set_get" id="op=:|{18|h9H]Ox7,+#Q">
+                <mutation component_type="CheckBox" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="chb_SMO"></mutation>
+                <field name="COMPONENT_SELECTOR">chb_SMO</field>
+                <field name="PROP">Enabled</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="FP,BIPODzwiCi:udU;L5">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="8!I8Pwa!8H3o19.kSTu,">
+                    <mutation component_type="CheckBox" set_or_get="set" property_name="Checked" is_generic="false" instance_name="chb_SMO"></mutation>
+                    <field name="COMPONENT_SELECTOR">chb_SMO</field>
+                    <field name="PROP">Checked</field>
+                    <value name="VALUE">
+                      <block type="logic_boolean" id="=1x553%p-tFYj]CNyTN@">
+                        <field name="BOOL">TRUE</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_set_get" id="{26(c{`08s!dAJh*R!op">
+                        <mutation component_type="Image" set_or_get="set" property_name="Visible" is_generic="false" instance_name="img_SMO"></mutation>
+                        <field name="COMPONENT_SELECTOR">img_SMO</field>
+                        <field name="PROP">Visible</field>
+                        <value name="VALUE">
+                          <block type="logic_boolean" id="ac7G.~5C3l+0(_Lsh_Bo">
+                            <field name="BOOL">TRUE</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_set_get" id=";6C)JOnor)dft]-o1brD" inline="false">
+                            <mutation component_type="Label" set_or_get="set" property_name="TextColor" is_generic="false" instance_name="lbl_SMO"></mutation>
+                            <field name="COMPONENT_SELECTOR">lbl_SMO</field>
+                            <field name="PROP">TextColor</field>
+                            <value name="VALUE">
+                              <block type="color_green" id="ANU-W!W0%d/`Mn@z=^RJ">
+                                <field name="COLOR">#009900</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="component_set_get" id="cfeF0,{g]nfg^n,5X[/T" inline="false">
+                                <mutation component_type="Label" set_or_get="set" property_name="FontSize" is_generic="false" instance_name="lbl_SMO"></mutation>
+                                <field name="COMPONENT_SELECTOR">lbl_SMO</field>
+                                <field name="PROP">FontSize</field>
+                                <value name="VALUE">
+                                  <block type="math_number" id="$a.K$XdZE00pJ}]W$CVY">
+                                    <field name="NUM">20</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_set_get" id="VD6dzz5b^(:BRfak9mic" inline="false">
+                                    <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="lbl_SMO"></mutation>
+                                    <field name="COMPONENT_SELECTOR">lbl_SMO</field>
+                                    <field name="PROP">Text</field>
+                                    <value name="VALUE">
+                                      <block type="text" id="!O:cyx^VmIA;l#1kq#4*">
+                                        <field name="TEXT">SMO VISITED BRAVO!!!</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <statement name="ELSE">
+              <block type="component_set_get" id="$!G4Cy.YoTFTvX{Mvv/2">
+                <mutation component_type="CheckBox" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="chb_SMO"></mutation>
+                <field name="COMPONENT_SELECTOR">chb_SMO</field>
+                <field name="PROP">Enabled</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="KoZb*h(L#xi-W,3uk$I|">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="(}O5Q2ou3I1hI?=Q5E;5">
+                    <mutation component_type="Image" set_or_get="set" property_name="Visible" is_generic="false" instance_name="img_SMO"></mutation>
+                    <field name="COMPONENT_SELECTOR">img_SMO</field>
+                    <field name="PROP">Visible</field>
+                    <value name="VALUE">
+                      <block type="logic_boolean" id="*cd8Tr?6@p%,Wc![`RPW">
+                        <field name="BOOL">TRUE</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_set_get" id="3.$LbP4I3T2(uyU~a,`~" inline="false">
+                        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="lbl_SMO"></mutation>
+                        <field name="COMPONENT_SELECTOR">lbl_SMO</field>
+                        <field name="PROP">Text</field>
+                        <value name="VALUE">
+                          <block type="text" id="dD?cF5YwOIuwCibab[h7">
+                            <field name="TEXT">SMO NOT VISITED!</field>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="sCV7v~k[1Nir98a1Bd{-" x="-663" y="-340">
+    <mutation component_type="Image" is_generic="false" instance_name="img_Tipana" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">img_Tipana</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="!0OFQBSOb?}3C7[kA^oz">
+        <value name="SCREEN">
+          <block type="text" id="3M+wQSHPKS3G(jQ!Ol=#">
+            <field name="TEXT">TIPANA</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="})ohydUK#Zo]sF]^]D7I" x="1556" y="-449">
+    <field name="NAME">TIPANA</field>
+    <statement name="STACK">
+      <block type="component_set_get" id=",}VJb$iUgHm^27LX#Uj-" inline="false">
+        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="lbl_Tipana"></mutation>
+        <field name="COMPONENT_SELECTOR">lbl_Tipana</field>
+        <field name="PROP">Text</field>
+        <value name="VALUE">
+          <block type="component_method" id="oL.VP)k8.aBcaBzUl6)F" inline="false">
+            <mutation component_type="TinyDB" method_name="GetValue" is_generic="false" instance_name="TinyDB1"></mutation>
+            <field name="COMPONENT_SELECTOR">TinyDB1</field>
+            <value name="ARG0">
+              <block type="text" id="Is}%Z_B7Nvs`.CxPucGG">
+                <field name="TEXT">TIPANA</field>
+              </block>
+            </value>
+            <value name="ARG1">
+              <block type="text" id="2ENf(~O,%yM^cO)b|4+K">
+                <field name="TEXT">NOT VISITED!</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="controls_if" id="qy9k+NV1k7=6iqn$MOn{" inline="false">
+            <mutation else="1"></mutation>
+            <value name="IF0">
+              <block type="logic_compare" id="7ojxM#uR;E8NDoLCz*1%">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="component_set_get" id="B7VRt5g7WXyC2}a7i3Ct">
+                    <mutation component_type="Label" set_or_get="get" property_name="Text" is_generic="false" instance_name="lbl_Tipana"></mutation>
+                    <field name="COMPONENT_SELECTOR">lbl_Tipana</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="text" id="ca#Ve?{1sQ{qK1qp^3Xv">
+                    <field name="TEXT">TIPANA</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="component_set_get" id="7,A^=CaHY~CRC7-T!EaC">
+                <mutation component_type="CheckBox" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="chb_Tipana"></mutation>
+                <field name="COMPONENT_SELECTOR">chb_Tipana</field>
+                <field name="PROP">Enabled</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="K`sCuy`}[Zwj!@BFqW8:">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="b%K9!}[5YoSX~QM+*k^9">
+                    <mutation component_type="CheckBox" set_or_get="set" property_name="Checked" is_generic="false" instance_name="chb_Tipana"></mutation>
+                    <field name="COMPONENT_SELECTOR">chb_Tipana</field>
+                    <field name="PROP">Checked</field>
+                    <value name="VALUE">
+                      <block type="logic_boolean" id="M3=j42to)-F^1A:7PL8X">
+                        <field name="BOOL">TRUE</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_set_get" id="DixP7F@O_,4cCZ]bNT|{">
+                        <mutation component_type="Image" set_or_get="set" property_name="Visible" is_generic="false" instance_name="img_Tipana"></mutation>
+                        <field name="COMPONENT_SELECTOR">img_Tipana</field>
+                        <field name="PROP">Visible</field>
+                        <value name="VALUE">
+                          <block type="logic_boolean" id="lEvS$?kiDf)}N$Y~FwSc">
+                            <field name="BOOL">TRUE</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_set_get" id="-)As6j/_OFo`r9LX+`P|" inline="false">
+                            <mutation component_type="Label" set_or_get="set" property_name="TextColor" is_generic="false" instance_name="lbl_Tipana"></mutation>
+                            <field name="COMPONENT_SELECTOR">lbl_Tipana</field>
+                            <field name="PROP">TextColor</field>
+                            <value name="VALUE">
+                              <block type="color_green" id="2u}`mAC`;3+ey.ei-|jm">
+                                <field name="COLOR">#009900</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="component_set_get" id="=`[::_KQk|?VSo.9@{!x" inline="false">
+                                <mutation component_type="Label" set_or_get="set" property_name="FontSize" is_generic="false" instance_name="lbl_Tipana"></mutation>
+                                <field name="COMPONENT_SELECTOR">lbl_Tipana</field>
+                                <field name="PROP">FontSize</field>
+                                <value name="VALUE">
+                                  <block type="math_number" id="it:hr2F?FVr4h8Dl#wA6">
+                                    <field name="NUM">20</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_set_get" id="dO.m/9q^ew7k4cf+R_+_" inline="false">
+                                    <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="lbl_Tipana"></mutation>
+                                    <field name="COMPONENT_SELECTOR">lbl_Tipana</field>
+                                    <field name="PROP">Text</field>
+                                    <value name="VALUE">
+                                      <block type="text" id="xy|MiHf)6duohpcB3B#~">
+                                        <field name="TEXT">PROSNID VISITED BRAVO!!!</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <statement name="ELSE">
+              <block type="component_set_get" id="[btUBA4gY~nHA4j*3Yvh">
+                <mutation component_type="CheckBox" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="chb_Tipana"></mutation>
+                <field name="COMPONENT_SELECTOR">chb_Tipana</field>
+                <field name="PROP">Enabled</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="]g;a5lrZ09Br+1NqI`x_">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="~0lg3wOuDEyehs7O[F/^">
+                    <mutation component_type="Image" set_or_get="set" property_name="Visible" is_generic="false" instance_name="img_Tipana"></mutation>
+                    <field name="COMPONENT_SELECTOR">img_Tipana</field>
+                    <field name="PROP">Visible</field>
+                    <value name="VALUE">
+                      <block type="logic_boolean" id="M;JRoSvlK2_Gh{IA9kbQ">
+                        <field name="BOOL">TRUE</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_set_get" id="=$fh)Amg44SUnvBF$}SG" inline="false">
+                        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="lbl_Tipana"></mutation>
+                        <field name="COMPONENT_SELECTOR">lbl_Tipana</field>
+                        <field name="PROP">Text</field>
+                        <value name="VALUE">
+                          <block type="text" id="uA1Pfmhaj}/tSgvH{x,L">
+                            <field name="TEXT">PROSNID NOT VISITED!</field>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="1MH8MN2b:Q2e?#JRcQ]x" x="-904" y="-191">
+    <mutation component_type="BarcodeScanner" is_generic="false" instance_name="BarcodeScanner1" event_name="AfterScan"></mutation>
+    <field name="COMPONENT_SELECTOR">BarcodeScanner1</field>
+    <statement name="DO">
+      <block type="lexical_variable_set" id="{e^hjorH!a^{i4v+IsFU">
+        <field name="VAR">global scan</field>
+        <value name="VALUE">
+          <block type="lexical_variable_get" id="!G6K,OKFp_IOa;F_Up?F">
+            <mutation>
+              <eventparam name="result"></eventparam>
+            </mutation>
+            <field name="VAR">result</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="ft%3eH`avM#;#=n|r(CW">
+            <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="lbl_Result"></mutation>
+            <field name="COMPONENT_SELECTOR">lbl_Result</field>
+            <field name="PROP">Text</field>
+            <value name="VALUE">
+              <block type="lexical_variable_get" id="q_[k0q`D26f}[QZ*,zdZ">
+                <mutation>
+                  <eventparam name="result"></eventparam>
+                </mutation>
+                <field name="VAR">result</field>
+              </block>
+            </value>
+            <next>
+              <block type="controls_if" id="|0lbQd8]uhVD3mW5q(3X" inline="false">
+                <mutation else="1"></mutation>
+                <value name="IF0">
+                  <block type="logic_compare" id="KJ2ix,!:-FbJs]Ncb:6Q">
+                    <field name="OP">EQ</field>
+                    <value name="A">
+                      <block type="component_set_get" id="t[O6L~Q?kOzcd_I+*(h3">
+                        <mutation component_type="Label" set_or_get="get" property_name="Text" is_generic="false" instance_name="lbl_Result"></mutation>
+                        <field name="COMPONENT_SELECTOR">lbl_Result</field>
+                        <field name="PROP">Text</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="text" id="#8ObefrP2PK|(gFwz7SP">
+                        <field name="TEXT">SMO</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO0">
+                  <block type="procedures_callnoreturn" id="Mr2kW*rd?4T4EXmPXnSZ" inline="false">
+                    <mutation name="SalvaSMO"></mutation>
+                    <field name="PROCNAME">SalvaSMO</field>
+                    <next>
+                      <block type="procedures_callnoreturn" id="=$oM#z#F%7JsG~*`x~Ot" inline="false">
+                        <mutation name="Komplet"></mutation>
+                        <field name="PROCNAME">Komplet</field>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+                <statement name="ELSE">
+                  <block type="procedures_callnoreturn" id="A)t?#p:BG:~`e5{7(%n7" inline="false">
+                    <mutation name="SMO"></mutation>
+                    <field name="PROCNAME">SMO</field>
+                    <next>
+                      <block type="controls_if" id="t^4X|Ii(_I1kC]zohfC3">
+                        <mutation else="1"></mutation>
+                        <value name="IF0">
+                          <block type="logic_compare" id="9r]?^/W7FzYC_uURS+dP">
+                            <field name="OP">EQ</field>
+                            <value name="A">
+                              <block type="component_set_get" id="=|?!NbZlV.+eHZT*Rd62">
+                                <mutation component_type="Label" set_or_get="get" property_name="Text" is_generic="false" instance_name="lbl_Result"></mutation>
+                                <field name="COMPONENT_SELECTOR">lbl_Result</field>
+                                <field name="PROP">Text</field>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="text" id="31khi9o=-{-mD=}dX(3)">
+                                <field name="TEXT">BARDO</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <statement name="DO0">
+                          <block type="procedures_callnoreturn" id="DSE_p(rgK*YmSv=p%,p0" inline="false">
+                            <mutation name="SalvaBARDO"></mutation>
+                            <field name="PROCNAME">SalvaBARDO</field>
+                            <next>
+                              <block type="procedures_callnoreturn" id="}phx_D%eo(^@$p4s=bg%" inline="false">
+                                <mutation name="Komplet"></mutation>
+                                <field name="PROCNAME">Komplet</field>
+                              </block>
+                            </next>
+                          </block>
+                        </statement>
+                        <statement name="ELSE">
+                          <block type="procedures_callnoreturn" id="#B%]P~-0|Wn4Mg15R-%R" inline="false">
+                            <mutation name="BARDO"></mutation>
+                            <field name="PROCNAME">BARDO</field>
+                            <next>
+                              <block type="controls_if" id="N?T7v7)PnxA@J[.S@,Fu">
+                                <mutation else="1"></mutation>
+                                <value name="IF0">
+                                  <block type="logic_compare" id="3~UmK.6WKGtO^Q#j{(dI">
+                                    <field name="OP">EQ</field>
+                                    <value name="A">
+                                      <block type="component_set_get" id="UrV%FLl-[tex35Y2Cq+o">
+                                        <mutation component_type="Label" set_or_get="get" property_name="Text" is_generic="false" instance_name="lbl_Result"></mutation>
+                                        <field name="COMPONENT_SELECTOR">lbl_Result</field>
+                                        <field name="PROP">Text</field>
+                                      </block>
+                                    </value>
+                                    <value name="B">
+                                      <block type="text" id="ukCN9w9;v%f0=5CkR6.A">
+                                        <field name="TEXT">REZIJA</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <statement name="DO0">
+                                  <block type="procedures_callnoreturn" id="p-6E:O;V42pJFL8sm_~N" inline="false">
+                                    <mutation name="SalvaREZIJA"></mutation>
+                                    <field name="PROCNAME">SalvaREZIJA</field>
+                                    <next>
+                                      <block type="procedures_callnoreturn" id="VU}wv4tZPDUtC[_;*p8r" inline="false">
+                                        <mutation name="Komplet"></mutation>
+                                        <field name="PROCNAME">Komplet</field>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </statement>
+                                <statement name="ELSE">
+                                  <block type="procedures_callnoreturn" id="c_shss[jz6d]l,UL-=_N" inline="false">
+                                    <mutation name="REZIJA"></mutation>
+                                    <field name="PROCNAME">REZIJA</field>
+                                    <next>
+                                      <block type="controls_if" id="h{/yuF;A-.tC-v`2=iAC">
+                                        <mutation else="1"></mutation>
+                                        <value name="IF0">
+                                          <block type="logic_compare" id="*@4XP-W[V(W]--0]-TUW">
+                                            <field name="OP">EQ</field>
+                                            <value name="A">
+                                              <block type="component_set_get" id="Juh,4)eL$skjiawkRNIF">
+                                                <mutation component_type="Label" set_or_get="get" property_name="Text" is_generic="false" instance_name="lbl_Result"></mutation>
+                                                <field name="COMPONENT_SELECTOR">lbl_Result</field>
+                                                <field name="PROP">Text</field>
+                                              </block>
+                                            </value>
+                                            <value name="B">
+                                              <block type="text" id="%O8~i2N.Tr=ugXV/*Kw)">
+                                                <field name="TEXT">TIPANA</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </value>
+                                        <statement name="DO0">
+                                          <block type="procedures_callnoreturn" id="W!o6[aWDSd{F%0^gTsOc" inline="false">
+                                            <mutation name="SalvaTIPANA"></mutation>
+                                            <field name="PROCNAME">SalvaTIPANA</field>
+                                            <next>
+                                              <block type="procedures_callnoreturn" id="1Hc)@pC`}o/jykDk/C=l" inline="false">
+                                                <mutation name="Komplet"></mutation>
+                                                <field name="PROCNAME">Komplet</field>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </statement>
+                                        <statement name="ELSE">
+                                          <block type="procedures_callnoreturn" id="uXf2%}$SGJeJ~eDj{-/J" inline="false">
+                                            <mutation name="TIPANA"></mutation>
+                                            <field name="PROCNAME">TIPANA</field>
+                                            <next>
+                                              <block type="controls_if" id="3(:0dW2@08y/d5dqMj9k">
+                                                <mutation else="1"></mutation>
+                                                <value name="IF0">
+                                                  <block type="logic_compare" id="fW)4m:?iq@39QHS]4bkF">
+                                                    <field name="OP">EQ</field>
+                                                    <value name="A">
+                                                      <block type="component_set_get" id="m)fT(ytTlheI4$qe9~$?">
+                                                        <mutation component_type="Label" set_or_get="get" property_name="Text" is_generic="false" instance_name="lbl_Result"></mutation>
+                                                        <field name="COMPONENT_SELECTOR">lbl_Result</field>
+                                                        <field name="PROP">Text</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="B">
+                                                      <block type="text" id="d9M.ox:VKD:#u`N0W4Yf">
+                                                        <field name="TEXT">MATAJUR</field>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                                <statement name="DO0">
+                                                  <block type="procedures_callnoreturn" id="*]4qu.Sm4Ia04qIjm:Le" inline="false">
+                                                    <mutation name="SalvaMATAJUR"></mutation>
+                                                    <field name="PROCNAME">SalvaMATAJUR</field>
+                                                    <next>
+                                                      <block type="procedures_callnoreturn" id="URFv-`2u$9qnEi_xku=O" inline="false">
+                                                        <mutation name="Komplet"></mutation>
+                                                        <field name="PROCNAME">Komplet</field>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </statement>
+                                                <statement name="ELSE">
+                                                  <block type="procedures_callnoreturn" id="LSl2~9/^q--abeH)L(ub" inline="false">
+                                                    <mutation name="MATAJUR"></mutation>
+                                                    <field name="PROCNAME">MATAJUR</field>
+                                                    <next>
+                                                      <block type="component_method" id="WBW/``NCP-:lJMx@W|P*">
+                                                        <mutation component_type="Notifier" method_name="ShowMessageDialog" is_generic="false" instance_name="Notifier1"></mutation>
+                                                        <field name="COMPONENT_SELECTOR">Notifier1</field>
+                                                        <value name="ARG0">
+                                                          <block type="text" id="!6P~p6u:~V0oF=Y`q=#!">
+                                                            <field name="TEXT">&lt;font background-color="grey" color="green"&gt;&lt;big&gt;NOT A VALID QRCODE&lt;/big&gt; &lt;/font&gt; </field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="ARG1">
+                                                          <block type="text" id="zLW$=6GZg$FG*$eiXZ3W">
+                                                            <field name="TEXT">SCAN</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="ARG2">
+                                                          <block type="text" id="Goxk,X}.^K;1T~}woaHU">
+                                                            <field name="TEXT">OK</field>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </statement>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </statement>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </statement>
+                              </block>
+                            </next>
+                          </block>
+                        </statement>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="[Y@~=+a)koN-iZiK?2Yk" x="812" y="-60">
+    <field name="NAME">SalvaSMO</field>
+    <statement name="STACK">
+      <block type="component_method" id="bACw@Wq3`Se}m-p^K)9r" inline="false">
+        <mutation component_type="TinyDB" method_name="StoreValue" is_generic="false" instance_name="TinyDB1"></mutation>
+        <field name="COMPONENT_SELECTOR">TinyDB1</field>
+        <value name="ARG0">
+          <block type="text" id="UrRs~j?QTQSooJizU4sE">
+            <field name="TEXT">SMO</field>
+          </block>
+        </value>
+        <value name="ARG1">
+          <block type="component_set_get" id=",)^m#9;C2Yo7Y9-=GEwK">
+            <mutation component_type="Label" set_or_get="get" property_name="Text" is_generic="false" instance_name="lbl_Result"></mutation>
+            <field name="COMPONENT_SELECTOR">lbl_Result</field>
+            <field name="PROP">Text</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id=")74.B-vwEX~0j9O|gi`9">
+            <mutation component_type="CheckBox" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="chb_SMO"></mutation>
+            <field name="COMPONENT_SELECTOR">chb_SMO</field>
+            <field name="PROP">Enabled</field>
+            <value name="VALUE">
+              <block type="logic_boolean" id="r9Sjb8^B7vU7n]ZpxK|@">
+                <field name="BOOL">FALSE</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="|=`r4JO[NO2TuLp-,3Gi">
+                <mutation component_type="Image" set_or_get="set" property_name="Visible" is_generic="false" instance_name="img_SMO"></mutation>
+                <field name="COMPONENT_SELECTOR">img_SMO</field>
+                <field name="PROP">Visible</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="Yjg1mUR*w[^5Sb#:0_t:">
+                    <field name="BOOL">TRUE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="_:wtvx#M9*j9LFsh+[MD" inline="false">
+                    <mutation component_type="Label" set_or_get="set" property_name="TextColor" is_generic="false" instance_name="lbl_SMO"></mutation>
+                    <field name="COMPONENT_SELECTOR">lbl_SMO</field>
+                    <field name="PROP">TextColor</field>
+                    <value name="VALUE">
+                      <block type="color_green" id="]XkZ}USBPhh22/;85*so">
+                        <field name="COLOR">#009900</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_set_get" id="6a/-2Txv6(@k+a^jL2Sf" inline="false">
+                        <mutation component_type="Label" set_or_get="set" property_name="FontSize" is_generic="false" instance_name="lbl_SMO"></mutation>
+                        <field name="COMPONENT_SELECTOR">lbl_SMO</field>
+                        <field name="PROP">FontSize</field>
+                        <value name="VALUE">
+                          <block type="math_number" id="Ct!/Mb5+nh488Gz+SGL@">
+                            <field name="NUM">20</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_set_get" id="Yx(+v{W]8fMzfv(X/XIP" inline="false">
+                            <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="lbl_SMO"></mutation>
+                            <field name="COMPONENT_SELECTOR">lbl_SMO</field>
+                            <field name="PROP">Text</field>
+                            <value name="VALUE">
+                              <block type="text" id="F?,QPzm%8hoT/9}K^*5c">
+                                <field name="TEXT">SMO VISITED BRAVO!!!</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="^EKKRXw})VzGdPk*^8FQ" x="1554" y="-67">
+    <field name="NAME">SalvaTIPANA</field>
+    <statement name="STACK">
+      <block type="component_method" id="AU+U)9kQEKD6C5uW|cOw" inline="false">
+        <mutation component_type="TinyDB" method_name="StoreValue" is_generic="false" instance_name="TinyDB1"></mutation>
+        <field name="COMPONENT_SELECTOR">TinyDB1</field>
+        <value name="ARG0">
+          <block type="text" id="v8zJnwRbJQ]rH%d:2Cy[">
+            <field name="TEXT">TIPANA</field>
+          </block>
+        </value>
+        <value name="ARG1">
+          <block type="component_set_get" id="NE@MXHM3!hh:es_4hvD+">
+            <mutation component_type="Label" set_or_get="get" property_name="Text" is_generic="false" instance_name="lbl_Result"></mutation>
+            <field name="COMPONENT_SELECTOR">lbl_Result</field>
+            <field name="PROP">Text</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="{M|((5m3K{LA.#FLViWb">
+            <mutation component_type="CheckBox" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="chb_Tipana"></mutation>
+            <field name="COMPONENT_SELECTOR">chb_Tipana</field>
+            <field name="PROP">Enabled</field>
+            <value name="VALUE">
+              <block type="logic_boolean" id="Me)~qtj?uexhCLQ8B{:T">
+                <field name="BOOL">FALSE</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="p~sbi-}+.yK_VJ(kgc4}">
+                <mutation component_type="Image" set_or_get="set" property_name="Visible" is_generic="false" instance_name="img_Tipana"></mutation>
+                <field name="COMPONENT_SELECTOR">img_Tipana</field>
+                <field name="PROP">Visible</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id=",-Bvof4d3Q!zQ8,_2rUB">
+                    <field name="BOOL">TRUE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="+V~$R/zzl.r|CW_ud$Mx" inline="false">
+                    <mutation component_type="Label" set_or_get="set" property_name="TextColor" is_generic="false" instance_name="lbl_Tipana"></mutation>
+                    <field name="COMPONENT_SELECTOR">lbl_Tipana</field>
+                    <field name="PROP">TextColor</field>
+                    <value name="VALUE">
+                      <block type="color_green" id="IAb4zMC`%Job@51j^J`8">
+                        <field name="COLOR">#009900</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_set_get" id="B(9[X.$Ei-c8lXx%R32}" inline="false">
+                        <mutation component_type="Label" set_or_get="set" property_name="FontSize" is_generic="false" instance_name="lbl_Tipana"></mutation>
+                        <field name="COMPONENT_SELECTOR">lbl_Tipana</field>
+                        <field name="PROP">FontSize</field>
+                        <value name="VALUE">
+                          <block type="math_number" id="Yb?5xPrC{=Gg=32{KqJ{">
+                            <field name="NUM">20</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_set_get" id="}AZoYs$f$X%:TD.9[jXe" inline="false">
+                            <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="lbl_Tipana"></mutation>
+                            <field name="COMPONENT_SELECTOR">lbl_Tipana</field>
+                            <field name="PROP">Text</field>
+                            <value name="VALUE">
+                              <block type="text" id="!(TD(}?BvCKm{*xiLyPJ">
+                                <field name="TEXT">PROSNID VISITED BRAVO!!!</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="f.Zxe,m#ZbUE(dxW)SQI" x="146" y="15">
+    <field name="NAME">SalvaBARDO</field>
+    <statement name="STACK">
+      <block type="component_method" id="^PRo40+ioW]66]/7XO_y" inline="false">
+        <mutation component_type="TinyDB" method_name="StoreValue" is_generic="false" instance_name="TinyDB1"></mutation>
+        <field name="COMPONENT_SELECTOR">TinyDB1</field>
+        <value name="ARG0">
+          <block type="text" id="FeuFcdrCP@8I}X#=XZf/">
+            <field name="TEXT">BARDO</field>
+          </block>
+        </value>
+        <value name="ARG1">
+          <block type="component_set_get" id="C}|Yxd)TOZje_FwNpj2Q">
+            <mutation component_type="Label" set_or_get="get" property_name="Text" is_generic="false" instance_name="lbl_Result"></mutation>
+            <field name="COMPONENT_SELECTOR">lbl_Result</field>
+            <field name="PROP">Text</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="c@ME5qGen-1.j[!|/Czf">
+            <mutation component_type="CheckBox" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="chb_Bardo"></mutation>
+            <field name="COMPONENT_SELECTOR">chb_Bardo</field>
+            <field name="PROP">Enabled</field>
+            <value name="VALUE">
+              <block type="logic_boolean" id="#w;W@2GBgJnkyYIF=ng,">
+                <field name="BOOL">FALSE</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id=".1dQ7)bHO`2friK.]=kZ">
+                <mutation component_type="Image" set_or_get="set" property_name="Visible" is_generic="false" instance_name="img_Bardo"></mutation>
+                <field name="COMPONENT_SELECTOR">img_Bardo</field>
+                <field name="PROP">Visible</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="X8v8yil20h$6b2.-gT=W">
+                    <field name="BOOL">TRUE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="0i2x/~^^Rta*.Hfm#tcK" inline="false">
+                    <mutation component_type="Label" set_or_get="set" property_name="TextColor" is_generic="false" instance_name="lbl_Bardo"></mutation>
+                    <field name="COMPONENT_SELECTOR">lbl_Bardo</field>
+                    <field name="PROP">TextColor</field>
+                    <value name="VALUE">
+                      <block type="color_green" id=".T1kxcox{$7_)/H$)/aT">
+                        <field name="COLOR">#009900</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_set_get" id="XByb$5:Pemimqw3B);uu" inline="false">
+                        <mutation component_type="Label" set_or_get="set" property_name="FontSize" is_generic="false" instance_name="lbl_Bardo"></mutation>
+                        <field name="COMPONENT_SELECTOR">lbl_Bardo</field>
+                        <field name="PROP">FontSize</field>
+                        <value name="VALUE">
+                          <block type="math_number" id="h)#.6v):1^@g5yFX^Erq">
+                            <field name="NUM">20</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_set_get" id="-T,q3i-!*]Ll_N8WCPRP" inline="false">
+                            <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="lbl_Bardo"></mutation>
+                            <field name="COMPONENT_SELECTOR">lbl_Bardo</field>
+                            <field name="PROP">Text</field>
+                            <value name="VALUE">
+                              <block type="text" id="EWx=jw)0/~K)UU@mZQ4*">
+                                <field name="TEXT">BARDO VISITED BRAVO!!!</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="|@Lv%7r7%Ty+LEGv;AA[" x="110" y="301">
+    <field name="NAME">REZIJA</field>
+    <statement name="STACK">
+      <block type="component_set_get" id="RL+[!)t6}+rHHEoN2?Mj" inline="false">
+        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="lbl_Rezija"></mutation>
+        <field name="COMPONENT_SELECTOR">lbl_Rezija</field>
+        <field name="PROP">Text</field>
+        <value name="VALUE">
+          <block type="component_method" id="1q?q~?[%RGIaJ05@7gk/" inline="false">
+            <mutation component_type="TinyDB" method_name="GetValue" is_generic="false" instance_name="TinyDB1"></mutation>
+            <field name="COMPONENT_SELECTOR">TinyDB1</field>
+            <value name="ARG0">
+              <block type="text" id="4lQJR4YI]Uz4ar^77#Ll">
+                <field name="TEXT">REZIJA</field>
+              </block>
+            </value>
+            <value name="ARG1">
+              <block type="text" id="-(nh8I.QQWU7:GUMGNbO">
+                <field name="TEXT">NOT VISITED!</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="controls_if" id="wWR+C`@kq-yb@xP}V(K0" inline="false">
+            <mutation else="1"></mutation>
+            <value name="IF0">
+              <block type="logic_compare" id="P9#Dr(BHZy,ts~`,WMG1">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="component_set_get" id="ogU0i.wvYE_T-WeqS(7O">
+                    <mutation component_type="Label" set_or_get="get" property_name="Text" is_generic="false" instance_name="lbl_Rezija"></mutation>
+                    <field name="COMPONENT_SELECTOR">lbl_Rezija</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="text" id="Ik@{XPBwM$S,h2;v_T6:">
+                    <field name="TEXT">REZIJA</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="component_set_get" id="[?[?Voy2:SnO6,N:Ony:">
+                <mutation component_type="CheckBox" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="chb_Rezija"></mutation>
+                <field name="COMPONENT_SELECTOR">chb_Rezija</field>
+                <field name="PROP">Enabled</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="Ut`G:nM7t7sZ[41p6cWw">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="D@kZ!3;Bs=6Fw.m(h]ff">
+                    <mutation component_type="CheckBox" set_or_get="set" property_name="Checked" is_generic="false" instance_name="chb_Rezija"></mutation>
+                    <field name="COMPONENT_SELECTOR">chb_Rezija</field>
+                    <field name="PROP">Checked</field>
+                    <value name="VALUE">
+                      <block type="logic_boolean" id="wV=YY?+-emMT~D;D$$Ux">
+                        <field name="BOOL">TRUE</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_set_get" id="/2S=KiC+qAQ?P}~RGeUR">
+                        <mutation component_type="Image" set_or_get="set" property_name="Visible" is_generic="false" instance_name="img_Rezija"></mutation>
+                        <field name="COMPONENT_SELECTOR">img_Rezija</field>
+                        <field name="PROP">Visible</field>
+                        <value name="VALUE">
+                          <block type="logic_boolean" id="6QqbMuk%lTI4ak={~Sij">
+                            <field name="BOOL">TRUE</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_set_get" id="z(!qPO@Pn1#of9#,K:Ex" inline="false">
+                            <mutation component_type="Label" set_or_get="set" property_name="TextColor" is_generic="false" instance_name="lbl_Rezija"></mutation>
+                            <field name="COMPONENT_SELECTOR">lbl_Rezija</field>
+                            <field name="PROP">TextColor</field>
+                            <value name="VALUE">
+                              <block type="color_green" id="5^~V]Yw:~iW^$$$;gRlB">
+                                <field name="COLOR">#009900</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="component_set_get" id="m,u::k!keMM{)NqK^)VK" inline="false">
+                                <mutation component_type="Label" set_or_get="set" property_name="FontSize" is_generic="false" instance_name="lbl_Rezija"></mutation>
+                                <field name="COMPONENT_SELECTOR">lbl_Rezija</field>
+                                <field name="PROP">FontSize</field>
+                                <value name="VALUE">
+                                  <block type="math_number" id="D3]0NjSZr}bRbge.dYs4">
+                                    <field name="NUM">20</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_set_get" id="YY!!``0ix`h90(yRPWy(" inline="false">
+                                    <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="lbl_Rezija"></mutation>
+                                    <field name="COMPONENT_SELECTOR">lbl_Rezija</field>
+                                    <field name="PROP">Text</field>
+                                    <value name="VALUE">
+                                      <block type="text" id="*Y+7/|Z48~0a(x{mv.#H">
+                                        <field name="TEXT">REZIJA VISITED BRAVO!!!</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <statement name="ELSE">
+              <block type="component_set_get" id="`~t(D~j=rtqnpi_E3)rU">
+                <mutation component_type="CheckBox" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="chb_Rezija"></mutation>
+                <field name="COMPONENT_SELECTOR">chb_Rezija</field>
+                <field name="PROP">Enabled</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="_(F[,U-`m(lxNWGlHNl_">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="DUs7x3?VUuDwMtuNSLW$">
+                    <mutation component_type="Image" set_or_get="set" property_name="Visible" is_generic="false" instance_name="img_Rezija"></mutation>
+                    <field name="COMPONENT_SELECTOR">img_Rezija</field>
+                    <field name="PROP">Visible</field>
+                    <value name="VALUE">
+                      <block type="logic_boolean" id="{U+gG$-#nUZHm]{W%BXJ">
+                        <field name="BOOL">TRUE</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_set_get" id="`eGF/)s7F$h#IeF;$^^G" inline="false">
+                        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="lbl_Rezija"></mutation>
+                        <field name="COMPONENT_SELECTOR">lbl_Rezija</field>
+                        <field name="PROP">Text</field>
+                        <value name="VALUE">
+                          <block type="text" id="bZyjqy9yUN;qAQMOqJhx">
+                            <field name="TEXT">REZIJA NOT VISITED!</field>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="Y9n;-mIVgMb^V2;TkQd%" x="811" y="336">
+    <field name="NAME">MATAJUR</field>
+    <statement name="STACK">
+      <block type="component_set_get" id="wW[57i_|g8I=@issq[zz" inline="false">
+        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="lbl_Matajur"></mutation>
+        <field name="COMPONENT_SELECTOR">lbl_Matajur</field>
+        <field name="PROP">Text</field>
+        <value name="VALUE">
+          <block type="component_method" id="%#[sHUixL/fIa4#Fs*qC" inline="false">
+            <mutation component_type="TinyDB" method_name="GetValue" is_generic="false" instance_name="TinyDB1"></mutation>
+            <field name="COMPONENT_SELECTOR">TinyDB1</field>
+            <value name="ARG0">
+              <block type="text" id="zo^13y_r4C_=*${Mzb8r">
+                <field name="TEXT">MATAJUR</field>
+              </block>
+            </value>
+            <value name="ARG1">
+              <block type="text" id="E/TMtU-IP}%r(FBivZ4=">
+                <field name="TEXT">NOT VISITED!</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="controls_if" id="rE`q_scBWgZB1]k{z^;m" inline="false">
+            <mutation else="1"></mutation>
+            <value name="IF0">
+              <block type="logic_compare" id="KVsxL9s;60+zEa9U|-6x">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="component_set_get" id="(BI?J2e.yqod^puNAJy}">
+                    <mutation component_type="Label" set_or_get="get" property_name="Text" is_generic="false" instance_name="lbl_Matajur"></mutation>
+                    <field name="COMPONENT_SELECTOR">lbl_Matajur</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="text" id="e_;szD()IZ7R2Q(hNui:">
+                    <field name="TEXT">MATAJUR</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="component_set_get" id="to^pVv-kUOq1_J419?9l">
+                <mutation component_type="CheckBox" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="chb_Matajur"></mutation>
+                <field name="COMPONENT_SELECTOR">chb_Matajur</field>
+                <field name="PROP">Enabled</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="bRa|kM4I{%E#zPEl$SP#">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="SY!xMt+kVIHXF:k?3fmT">
+                    <mutation component_type="CheckBox" set_or_get="set" property_name="Checked" is_generic="false" instance_name="chb_Matajur"></mutation>
+                    <field name="COMPONENT_SELECTOR">chb_Matajur</field>
+                    <field name="PROP">Checked</field>
+                    <value name="VALUE">
+                      <block type="logic_boolean" id="NZ=T,{P~lhICgVNkNleT">
+                        <field name="BOOL">TRUE</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_set_get" id="}d,(:p#|@uV~/eDL7v_K">
+                        <mutation component_type="Image" set_or_get="set" property_name="Visible" is_generic="false" instance_name="img_Matajur"></mutation>
+                        <field name="COMPONENT_SELECTOR">img_Matajur</field>
+                        <field name="PROP">Visible</field>
+                        <value name="VALUE">
+                          <block type="logic_boolean" id="ytC6r]r7on.!}Rd+?;2_">
+                            <field name="BOOL">TRUE</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_set_get" id="JSJ3Zj6,W-YHoU]Yp!ik" inline="false">
+                            <mutation component_type="Label" set_or_get="set" property_name="TextColor" is_generic="false" instance_name="lbl_Matajur"></mutation>
+                            <field name="COMPONENT_SELECTOR">lbl_Matajur</field>
+                            <field name="PROP">TextColor</field>
+                            <value name="VALUE">
+                              <block type="color_green" id="eUWhp=[A)WM!Z;4)@%hy">
+                                <field name="COLOR">#009900</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="component_set_get" id="/;Pgk7c=qx,Ea;/_Fwij" inline="false">
+                                <mutation component_type="Label" set_or_get="set" property_name="FontSize" is_generic="false" instance_name="lbl_Matajur"></mutation>
+                                <field name="COMPONENT_SELECTOR">lbl_Matajur</field>
+                                <field name="PROP">FontSize</field>
+                                <value name="VALUE">
+                                  <block type="math_number" id="SM,@9MX/UB9W*uKD_SND">
+                                    <field name="NUM">20</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_set_get" id="7iLb,:=b5=^ZZ(#BRj49" inline="false">
+                                    <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="lbl_Matajur"></mutation>
+                                    <field name="COMPONENT_SELECTOR">lbl_Matajur</field>
+                                    <field name="PROP">Text</field>
+                                    <value name="VALUE">
+                                      <block type="text" id="8y`=[NAP9HDuwsa{Z+x/">
+                                        <field name="TEXT">MATAJUR VISITED BRAVO!!!</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <statement name="ELSE">
+              <block type="component_set_get" id="L~sN7^GGRsPefbC,7wfx">
+                <mutation component_type="CheckBox" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="chb_Matajur"></mutation>
+                <field name="COMPONENT_SELECTOR">chb_Matajur</field>
+                <field name="PROP">Enabled</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="GXB~_;1wB#htI9Ui`69?">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id=",!rv~aI.9Z=cC8~iPEj-">
+                    <mutation component_type="Image" set_or_get="set" property_name="Visible" is_generic="false" instance_name="img_Matajur"></mutation>
+                    <field name="COMPONENT_SELECTOR">img_Matajur</field>
+                    <field name="PROP">Visible</field>
+                    <value name="VALUE">
+                      <block type="logic_boolean" id="O(vaV*p(I2~@a#?$E{hs">
+                        <field name="BOOL">TRUE</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_set_get" id="B+,W(3Xtb)llGJOK4|,n" inline="false">
+                        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="lbl_Matajur"></mutation>
+                        <field name="COMPONENT_SELECTOR">lbl_Matajur</field>
+                        <field name="PROP">Text</field>
+                        <value name="VALUE">
+                          <block type="text" id="l[H*=n:,^)^RSGI_uSq,">
+                            <field name="TEXT">MATAJUR NOT VISITED!</field>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="pmL473bGSbs1_EnpRSZZ" x="117" y="750">
+    <field name="NAME">SalvaREZIJA</field>
+    <statement name="STACK">
+      <block type="component_method" id="}??O36@Mis^j~f85oqI`" inline="false">
+        <mutation component_type="TinyDB" method_name="StoreValue" is_generic="false" instance_name="TinyDB1"></mutation>
+        <field name="COMPONENT_SELECTOR">TinyDB1</field>
+        <value name="ARG0">
+          <block type="text" id="Zl7O~5$V[ZyfF,?-@r6[">
+            <field name="TEXT">REZIJA</field>
+          </block>
+        </value>
+        <value name="ARG1">
+          <block type="component_set_get" id="`}#_N:x`Phf,Tza9D=l0">
+            <mutation component_type="Label" set_or_get="get" property_name="Text" is_generic="false" instance_name="lbl_Result"></mutation>
+            <field name="COMPONENT_SELECTOR">lbl_Result</field>
+            <field name="PROP">Text</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id=".G7rKZ~gbpA;#)KwJ;5.">
+            <mutation component_type="CheckBox" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="chb_Rezija"></mutation>
+            <field name="COMPONENT_SELECTOR">chb_Rezija</field>
+            <field name="PROP">Enabled</field>
+            <value name="VALUE">
+              <block type="logic_boolean" id="E?sF.jRZZUU5ptpNOCrI">
+                <field name="BOOL">FALSE</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="6KB-Bb/,I3nf6BrJB_0e">
+                <mutation component_type="Image" set_or_get="set" property_name="Visible" is_generic="false" instance_name="img_Rezija"></mutation>
+                <field name="COMPONENT_SELECTOR">img_Rezija</field>
+                <field name="PROP">Visible</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="%rdS+!elF0L=ek=%MNyg">
+                    <field name="BOOL">TRUE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="%|COEeI*$QglIcvpGFwt" inline="false">
+                    <mutation component_type="Label" set_or_get="set" property_name="TextColor" is_generic="false" instance_name="lbl_Rezija"></mutation>
+                    <field name="COMPONENT_SELECTOR">lbl_Rezija</field>
+                    <field name="PROP">TextColor</field>
+                    <value name="VALUE">
+                      <block type="color_green" id="{tx2UcD~f!7c+^;Hmza7">
+                        <field name="COLOR">#009900</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_set_get" id="on_p_O58.#NY5bxzw|gf" inline="false">
+                        <mutation component_type="Label" set_or_get="set" property_name="FontSize" is_generic="false" instance_name="lbl_Rezija"></mutation>
+                        <field name="COMPONENT_SELECTOR">lbl_Rezija</field>
+                        <field name="PROP">FontSize</field>
+                        <value name="VALUE">
+                          <block type="math_number" id="8~*A9@GY6/@M03rpxaVu">
+                            <field name="NUM">20</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_set_get" id="f`X$2IM]0YJ;TFc6(zFI" inline="false">
+                            <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="lbl_Rezija"></mutation>
+                            <field name="COMPONENT_SELECTOR">lbl_Rezija</field>
+                            <field name="PROP">Text</field>
+                            <value name="VALUE">
+                              <block type="text" id="9:?.dUhvsQlX^.2PC#J7">
+                                <field name="TEXT">REZIJA VISITED BRAVO!!!</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="K`u%$lUvFTD}Ta7DNLHs" x="799" y="756">
+    <field name="NAME">SalvaMATAJUR</field>
+    <statement name="STACK">
+      <block type="component_method" id="u1!,w;+p/;0,lL!uIJ3T" inline="false">
+        <mutation component_type="TinyDB" method_name="StoreValue" is_generic="false" instance_name="TinyDB1"></mutation>
+        <field name="COMPONENT_SELECTOR">TinyDB1</field>
+        <value name="ARG0">
+          <block type="text" id="/)4iayOg/tUw9Tv=q-$A">
+            <field name="TEXT">MATAJUR</field>
+          </block>
+        </value>
+        <value name="ARG1">
+          <block type="component_set_get" id="zQfbP6QI2TAld-Fva]Pm">
+            <mutation component_type="Label" set_or_get="get" property_name="Text" is_generic="false" instance_name="lbl_Result"></mutation>
+            <field name="COMPONENT_SELECTOR">lbl_Result</field>
+            <field name="PROP">Text</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="ExVE]lD8l58{:(ljVFVx">
+            <mutation component_type="CheckBox" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="chb_Matajur"></mutation>
+            <field name="COMPONENT_SELECTOR">chb_Matajur</field>
+            <field name="PROP">Enabled</field>
+            <value name="VALUE">
+              <block type="logic_boolean" id="$;jH18gkY*iHi2-BC!P0">
+                <field name="BOOL">FALSE</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="9+W)=O(Lv!$DWUyfm%`G">
+                <mutation component_type="Image" set_or_get="set" property_name="Visible" is_generic="false" instance_name="img_Matajur"></mutation>
+                <field name="COMPONENT_SELECTOR">img_Matajur</field>
+                <field name="PROP">Visible</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="L6`%|{e`D_e~DVERGC9V">
+                    <field name="BOOL">TRUE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="-#L=CG+Gt7#x|yNXf~#." inline="false">
+                    <mutation component_type="Label" set_or_get="set" property_name="TextColor" is_generic="false" instance_name="lbl_Matajur"></mutation>
+                    <field name="COMPONENT_SELECTOR">lbl_Matajur</field>
+                    <field name="PROP">TextColor</field>
+                    <value name="VALUE">
+                      <block type="color_green" id="o}Qu?XAd,mOMe}0l?HT_">
+                        <field name="COLOR">#009900</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_set_get" id="?msNULUoN)+R=^XYMtrD" inline="false">
+                        <mutation component_type="Label" set_or_get="set" property_name="FontSize" is_generic="false" instance_name="lbl_Matajur"></mutation>
+                        <field name="COMPONENT_SELECTOR">lbl_Matajur</field>
+                        <field name="PROP">FontSize</field>
+                        <value name="VALUE">
+                          <block type="math_number" id="6U0_{ZLuHp}V6e,;7-I}">
+                            <field name="NUM">20</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_set_get" id="2p51oqZd[$)9*U/+(:x]" inline="false">
+                            <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="lbl_Matajur"></mutation>
+                            <field name="COMPONENT_SELECTOR">lbl_Matajur</field>
+                            <field name="PROP">Text</field>
+                            <value name="VALUE">
+                              <block type="text" id="w{=c,%4q}oFG8trmR`Rc">
+                                <field name="TEXT">MATAJUR VISITED BRAVO!!!</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="vJ-Xv7y9/[8}!QAsfld~" x="175" y="1011">
+    <mutation component_type="Button" is_generic="false" instance_name="btn_Mail" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btn_Mail</field>
+    <statement name="DO">
+      <block type="component_method" id="lrc!fu5/zrtZJ[k~w3F8">
+        <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="acs_Mail"></mutation>
+        <field name="COMPONENT_SELECTOR">acs_Mail</field>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="G0d#ogD)[PiI7mo::%w7" x="174" y="1199">
+    <mutation component_type="Clock" is_generic="false" instance_name="Clock1" event_name="Timer"></mutation>
+    <field name="COMPONENT_SELECTOR">Clock1</field>
+    <statement name="DO">
+      <block type="component_set_get" id="|BiRS]^P`{7c#;6oOUVZ">
+        <mutation component_type="Button" set_or_get="set" property_name="Visible" is_generic="false" instance_name="btn_Scan"></mutation>
+        <field name="COMPONENT_SELECTOR">btn_Scan</field>
+        <field name="PROP">Visible</field>
+        <value name="VALUE">
+          <block type="logic_boolean" id="%hTN@.CMvu2G/-W_t7]l">
+            <field name="BOOL">FALSE</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_method" id="5%-cHSr_Y}/rg$s`.A{J">
+            <mutation component_type="Player" method_name="Start" is_generic="false" instance_name="ply_komplete"></mutation>
+            <field name="COMPONENT_SELECTOR">ply_komplete</field>
+            <next>
+              <block type="component_set_get" id="vN*L58@mnINul{=FXEy6">
+                <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="vra_Komplete"></mutation>
+                <field name="COMPONENT_SELECTOR">vra_Komplete</field>
+                <field name="PROP">Visible</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id=";v8@jTCUX#]|xdLw-eIG">
+                    <field name="BOOL">TRUE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="+DyrLwCeDFPkKqYLjaE=">
+                    <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Height" is_generic="false" instance_name="vra_Komplete"></mutation>
+                    <field name="COMPONENT_SELECTOR">vra_Komplete</field>
+                    <field name="PROP">Height</field>
+                    <value name="VALUE">
+                      <block type="component_set_get" id="j4%Za:~c{eMI,)^*B.9)">
+                        <mutation component_type="VerticalArrangement" set_or_get="get" property_name="Height" is_generic="false" instance_name="VerticalArrangement1"></mutation>
+                        <field name="COMPONENT_SELECTOR">VerticalArrangement1</field>
+                        <field name="PROP">Height</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_set_get" id="N%T2Fg;5w1.!J[ry3cPQ">
+                        <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Width" is_generic="false" instance_name="vra_Komplete"></mutation>
+                        <field name="COMPONENT_SELECTOR">vra_Komplete</field>
+                        <field name="PROP">Width</field>
+                        <value name="VALUE">
+                          <block type="component_set_get" id="!Wc;0q~P:CtXi.-}q*rh">
+                            <mutation component_type="VerticalArrangement" set_or_get="get" property_name="Width" is_generic="false" instance_name="VerticalArrangement1"></mutation>
+                            <field name="COMPONENT_SELECTOR">VerticalArrangement1</field>
+                            <field name="PROP">Width</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_set_get" id="co8#~4HPgejvVxO,kyW!">
+                            <mutation component_type="Clock" set_or_get="set" property_name="TimerEnabled" is_generic="false" instance_name="Clock1"></mutation>
+                            <field name="COMPONENT_SELECTOR">Clock1</field>
+                            <field name="PROP">TimerEnabled</field>
+                            <value name="VALUE">
+                              <block type="logic_boolean" id="=GBb~Th_7fv,Jf,Jrq+$">
+                                <field name="BOOL">FALSE</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="component_set_get" id="_pc5pKYork+q5o{%LB@^">
+                                <mutation component_type="Label" set_or_get="set" property_name="Visible" is_generic="false" instance_name="lbl_Komplete"></mutation>
+                                <field name="COMPONENT_SELECTOR">lbl_Komplete</field>
+                                <field name="PROP">Visible</field>
+                                <value name="VALUE">
+                                  <block type="logic_boolean" id="/MrgWjQ)sDD85l0wmNJR">
+                                    <field name="BOOL">TRUE</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_set_get" id="6RQd/TrL*_bV9ej?+zE=">
+                                    <mutation component_type="Label" set_or_get="set" property_name="Visible" is_generic="false" instance_name="lbl_Kongratulation"></mutation>
+                                    <field name="COMPONENT_SELECTOR">lbl_Kongratulation</field>
+                                    <field name="PROP">Visible</field>
+                                    <value name="VALUE">
+                                      <block type="logic_boolean" id="5u3$SopK}wU}A{X;cfa7">
+                                        <field name="BOOL">TRUE</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="component_set_get" id="GRl|*N]-~vcknu7oP2V~">
+                                        <mutation component_type="Label" set_or_get="set" property_name="FontSize" is_generic="false" instance_name="lbl_Kongratulation"></mutation>
+                                        <field name="COMPONENT_SELECTOR">lbl_Kongratulation</field>
+                                        <field name="PROP">FontSize</field>
+                                        <value name="VALUE">
+                                          <block type="math_number" id="lJ*Qb-bBe*lA;iF=:_ri">
+                                            <field name="NUM">35</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="component_set_get" id=";GE/I-XTfyNSVF$hfB/w">
+                                            <mutation component_type="Label" set_or_get="set" property_name="TextColor" is_generic="false" instance_name="lbl_Kongratulation"></mutation>
+                                            <field name="COMPONENT_SELECTOR">lbl_Kongratulation</field>
+                                            <field name="PROP">TextColor</field>
+                                            <value name="VALUE">
+                                              <block type="color_green" id="bz8Ti^AKe4tPRHxv0}NU">
+                                                <field name="COLOR">#009900</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="component_set_get" id="Ba!UcXE.NUno(c!VAfdR">
+                                                <mutation component_type="Button" set_or_get="set" property_name="Visible" is_generic="false" instance_name="btn_Mail"></mutation>
+                                                <field name="COMPONENT_SELECTOR">btn_Mail</field>
+                                                <field name="PROP">Visible</field>
+                                                <value name="VALUE">
+                                                  <block type="logic_boolean" id="7sL}l|PZ:uS]Ro,9Htm|">
+                                                    <field name="BOOL">TRUE</field>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="component_set_get" id="._ZORf*Xl9)L,vC(x7YF">
+                                                    <mutation component_type="Label" set_or_get="set" property_name="FontSize" is_generic="false" instance_name="lbl_Komplete"></mutation>
+                                                    <field name="COMPONENT_SELECTOR">lbl_Komplete</field>
+                                                    <field name="PROP">FontSize</field>
+                                                    <value name="VALUE">
+                                                      <block type="math_number" id="sovQBl[ZqQ3Tt4}xnd6O">
+                                                        <field name="NUM">24</field>
+                                                      </block>
+                                                    </value>
+                                                    <next>
+                                                      <block type="component_set_get" id="h;7A{l7aL7z-?Z!oz6F$">
+                                                        <mutation component_type="Label" set_or_get="set" property_name="TextColor" is_generic="false" instance_name="lbl_Komplete"></mutation>
+                                                        <field name="COMPONENT_SELECTOR">lbl_Komplete</field>
+                                                        <field name="PROP">TextColor</field>
+                                                        <value name="VALUE">
+                                                          <block type="color_green" id="9jB{dH|XNx7x#X(3m%S1">
+                                                            <field name="COLOR">#009900</field>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="2t)zU;.^#|xh`b.q~fHm" x="-1493" y="1733">
+    <field name="NAME">Komplet</field>
+    <statement name="STACK">
+      <block type="controls_if" id="?$xGw3CFgkXG2vFzFjk4">
+        <value name="IF0">
+          <block type="logic_operation" id="!$xy.!-E0Sw2[SEzXpjK">
+            <mutation items="2"></mutation>
+            <field name="OP">AND</field>
+            <value name="A">
+              <block type="logic_compare" id="5!Yh(X*Wc2{n/X49hn/}">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="component_set_get" id="pOF)5RP1kzJ39M_VWMMY">
+                    <mutation component_type="Label" set_or_get="get" property_name="Text" is_generic="false" instance_name="lbl_Bardo"></mutation>
+                    <field name="COMPONENT_SELECTOR">lbl_Bardo</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="text" id="WI!4l;|2P0V!sOMu!*Ye">
+                    <field name="TEXT">BARDO VISITED BRAVO!!!</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="logic_operation" id="ZKJIhqmlfeJ{;P0q/vl~">
+                <mutation items="2"></mutation>
+                <field name="OP">AND</field>
+                <value name="A">
+                  <block type="logic_compare" id="9!w7b=wWY8A}mMQjd8@(">
+                    <field name="OP">EQ</field>
+                    <value name="A">
+                      <block type="component_set_get" id=")@HT.zgdFAv,fxP^s(2C">
+                        <mutation component_type="Label" set_or_get="get" property_name="Text" is_generic="false" instance_name="lbl_Rezija"></mutation>
+                        <field name="COMPONENT_SELECTOR">lbl_Rezija</field>
+                        <field name="PROP">Text</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="text" id="]Z]DjsZHk5WCJ@-UjHqs">
+                        <field name="TEXT">REZIJA VISITED BRAVO!!!</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="logic_operation" id="UXwJ5a{.43I[2TmyqL4(">
+                    <mutation items="2"></mutation>
+                    <field name="OP">AND</field>
+                    <value name="A">
+                      <block type="logic_compare" id="ES*~km{X[LB4WmWR.s`!">
+                        <field name="OP">EQ</field>
+                        <value name="A">
+                          <block type="component_set_get" id="VmOn2^rd0,PAD6=r;tdw">
+                            <mutation component_type="Label" set_or_get="get" property_name="Text" is_generic="false" instance_name="lbl_Matajur"></mutation>
+                            <field name="COMPONENT_SELECTOR">lbl_Matajur</field>
+                            <field name="PROP">Text</field>
+                          </block>
+                        </value>
+                        <value name="B">
+                          <block type="text" id="IFEchGo$G{.L[UoeD?+y">
+                            <field name="TEXT">MATAJUR VISITED BRAVO!!!</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="logic_operation" id="V{d1t2y.)Q,tI/8P8qP@">
+                        <mutation items="2"></mutation>
+                        <field name="OP">AND</field>
+                        <value name="A">
+                          <block type="logic_compare" id="LjHOMo^]a9]7+fcvrNe[">
+                            <field name="OP">EQ</field>
+                            <value name="A">
+                              <block type="component_set_get" id="]Q+E[DiU]%]a=:kd2xuc">
+                                <mutation component_type="Label" set_or_get="get" property_name="Text" is_generic="false" instance_name="lbl_SMO"></mutation>
+                                <field name="COMPONENT_SELECTOR">lbl_SMO</field>
+                                <field name="PROP">Text</field>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="text" id=")!N{%T=LICT[}v*;|T@N">
+                                <field name="TEXT">SMO VISITED BRAVO!!!</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <value name="B">
+                          <block type="logic_compare" id="@o;(,G$U_6`ONVO![iGx">
+                            <field name="OP">EQ</field>
+                            <value name="A">
+                              <block type="component_set_get" id=",ILFWMkf=2FWzAP))c.8">
+                                <mutation component_type="Label" set_or_get="get" property_name="Text" is_generic="false" instance_name="lbl_Tipana"></mutation>
+                                <field name="COMPONENT_SELECTOR">lbl_Tipana</field>
+                                <field name="PROP">Text</field>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="text" id="%+VE.X3L%+J}vCS_ok@h">
+                                <field name="TEXT">PROSNID VISITED BRAVO!!!</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="component_set_get" id="3T2T$8$iNj7qt/_:wz=f">
+            <mutation component_type="Clock" set_or_get="set" property_name="TimerEnabled" is_generic="false" instance_name="Clock1"></mutation>
+            <field name="COMPONENT_SELECTOR">Clock1</field>
+            <field name="PROP">TimerEnabled</field>
+            <value name="VALUE">
+              <block type="logic_boolean" id="wtT*Hj!8o{5V%rF~vN^X">
+                <field name="BOOL">TRUE</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="g61UmK(]TK$_$ww`B-kH">
+                <mutation component_type="Clock" set_or_get="set" property_name="TimerInterval" is_generic="false" instance_name="Clock1"></mutation>
+                <field name="COMPONENT_SELECTOR">Clock1</field>
+                <field name="PROP">TimerInterval</field>
+                <value name="VALUE">
+                  <block type="math_number" id="c7Wzn#]!ry%pSV+7O9#d">
+                    <field name="NUM">3000</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="208" language-version="33"></yacodeblocks>
+</xml>

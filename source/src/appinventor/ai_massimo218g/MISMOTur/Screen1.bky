@@ -1,0 +1,23 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="4G%jisRGZ6pxx:4$|N28" x="-336" y="70">
+    <mutation component_type="Button" is_generic="false" instance_name="btn_Musei" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btn_Musei</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="}U!%Dpj`}B:E^4j`MaWu" inline="false">
+        <value name="SCREEN">
+          <block type="text" id="#.Kc/fEGt0:Kbv-_Xu%M">
+            <field name="TEXT">Archivio</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="{$#_l$@n[EM(tqZx#`7c" x="-318" y="243">
+    <mutation component_type="Button" is_generic="false" instance_name="btn_Close" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btn_Close</field>
+    <statement name="DO">
+      <block type="controls_closeApplication" id="w#;UM$#}B{OIWek?~VWI"></block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="208" language-version="33"></yacodeblocks>
+</xml>

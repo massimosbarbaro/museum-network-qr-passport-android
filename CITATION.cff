@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you refer to this software, please cite it as below."
+type: software
+title: "MISMOTur: QR-code “museum passport” for a network of ethnographic museums (MIT App Inventor (Android), 2020)"
+version: "1.0"
+abstract: "MISMOTur turns a visit to a network of five small ethnographic museums in a border mountain area into a game. Each museum has its own screen with a description; at each museum the visitor scans the QR code on site and the app stamps the visit. When all museums have been visited the app congratulates the visitor and prepares an e-mail to claim a prize. Interface in Slovene, Italian and English."
+authors:
+  - family-names: Sbarbaro
+    given-names: Massimo
+    orcid: "https://orcid.org/0009-0006-8965-9013"
+license: MIT
+repository-code: "https://github.com/massimosbarbaro/museum-network-qr-passport-appinventor"
+keywords:
+  - "MIT App Inventor"
+  - "Android"
+  - "QR code"
+  - "museum network"
+  - "gamification"
+  - "cultural heritage"
