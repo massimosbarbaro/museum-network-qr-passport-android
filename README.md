@@ -1,8 +1,10 @@
 # MISMOTur: QR-code “museum passport” for a network of ethnographic museums
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23205251.svg)](https://doi.org/10.5281/zenodo.23205251)
+
 *“Passaporto” a codici QR per una rete di musei etnografici*
 
-**MIT App Inventor (Android)** · 2020 · version 1.0  
+**Android** · 2020 · version 1.0  
 Author: **Massimo Sbarbaro** ([ORCID 0009-0006-8965-9013](https://orcid.org/0009-0006-8965-9013))
 
 ## Overview
@@ -41,13 +43,13 @@ Photographs, illustrations, logos, sound recordings and stock images are **not**
 
 ## Related repositories
 
-- [museum-qr-guide-prototype-appinventor](https://github.com/massimosbarbaro/museum-qr-guide-prototype-appinventor)
+- [museum-qr-guide-prototype-android](https://github.com/massimosbarbaro/museum-qr-guide-prototype-android)
 
 ## How to cite
 
-Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*). Each release is archived on Zenodo with its own DOI.
+Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*). The release is archived on Zenodo with the DOI [10.5281/zenodo.23205251](https://doi.org/10.5281/zenodo.23205251).
 
-> Sbarbaro, Massimo. *MISMOTur: QR-code “museum passport” for a network of ethnographic museums (MIT App Inventor (Android), 2020)*. Software, version 1.0. GitHub: https://github.com/massimosbarbaro/museum-network-qr-passport-appinventor
+> Sbarbaro, Massimo. 2020. *MISMOTur: QR-code “museum passport” for a network of ethnographic museums*. Software (Android, 2020), version 1.0. Zenodo. https://doi.org/10.5281/zenodo.23205251.
 
 ## License
 
