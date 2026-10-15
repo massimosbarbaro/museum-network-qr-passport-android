@@ -26,20 +26,20 @@ Visit status stored locally on the device; museum contact details have been remo
 
 ## Technology
 
-MIT App Inventor 2: BarcodeScanner, TinyDB, ActivityStarter, PhoneCall, Player, Clock, Notifier, CheckBox; permissions CAMERA, VIBRATE.
+Android components: BarcodeScanner, TinyDB, ActivityStarter, PhoneCall, Player, Clock, Notifier, CheckBox; permissions CAMERA, VIBRATE.
 
 ## Repository contents
 
 | Path | Content |
 |---|---|
-| `project/*.aia` | The App Inventor project, ready to be imported (*Projects → Import project (.aia)* at ai2.appinventor.mit.edu). |
+| `project/*.aia` | The Android project, ready to be imported (*Projects → Import project (.aia)* at ai2.appinventor.mit.edu). |
 | `source/src/` | Screen designs (`.scm`, JSON) and block programs (`.bky`, Blockly XML), one pair per screen. |
-| `source/assets/` | Button icons and App Inventor extensions used by the project. |
+| `source/assets/` | Button icons and extensions used by the project. |
 | `source/youngandroidproject/` | Project properties (package, version, theme). |
 
 ## What is not included
 
-Photographs, illustrations, logos, sound recordings and stock images are **not** included: most of them belong to third parties (photographers, illustrators, performers, the commissioning organisation). The project still opens in App Inventor; the components that showed those media are simply empty. The name of the commissioning organisation and the funding statement have been removed, together with addresses, telephone numbers, e-mail addresses and websites of third parties; web addresses used by the app have been replaced with `example.org`. The compiled APK and its signing key are not published.
+Photographs, illustrations, logos, sound recordings and stock images are **not** included: most of them belong to third parties (photographers, illustrators, performers, the commissioning organisation). The project still opens in the online editor; the components that showed those media are simply empty. The name of the commissioning organisation and the funding statement have been removed, together with addresses, telephone numbers, e-mail addresses and websites of third parties; web addresses used by the app have been replaced with `example.org`. The compiled APK and its signing key are not published.
 
 ## Related repositories
 

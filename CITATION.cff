@@ -12,7 +12,6 @@ license: MIT
 doi: "10.5281/zenodo.23205251"
 repository-code: "https://github.com/massimosbarbaro/museum-network-qr-passport-android"
 keywords:
-  - "MIT App Inventor"
   - "Android"
   - "QR code"
   - "museum network"
